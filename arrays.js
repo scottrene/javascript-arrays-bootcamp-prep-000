@@ -39,9 +39,9 @@ var chocolateBars = [
     return newArray
   }
   
-  function destructivelyRemoveElementsFromEndOfArray(array) {
+  function destructivelyRemoveElementFromEndOfArray(array) {
     array.pop()
-    
+    return array
   }
   
   
