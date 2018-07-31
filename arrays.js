@@ -38,3 +38,8 @@ var chocolateBars = [
     newArray = array.slice(1)
     return newArray
   }
+  
+  function destructivelyRemoveElementsFromEndOfArray(array) {
+    array.pop()
+    return array
+  }
